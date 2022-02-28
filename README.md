@@ -14,9 +14,9 @@ This syllabus is largely based on [Mike Dane’s](https://www.mikedane.com) vide
 
 ## Syllabus
 
-The course content, including videos and exercises, are organized by week as folders (see in the source code above). To begin, click on [Week 1 – An introduction to Python and basic data types](#). To provide a comprehensive look at what will be covered in this course, an outline is provided below.
+The course content, including videos and exercises, are organized by week as folders (see in the source code above). To begin, click on [Week 1 – An introduction to Python and basic data types](https://github.com/PDXPythonPirates/python-101/tree/main/Week%201%20–%20An%20introduction%20to%20Python%20and%20basic%20data%20types). To provide a comprehensive look at what will be covered in this course, an outline is provided below.
 
-* Week 1 – An introduction to Python and basic data types
+* [Week 1 – An introduction to Python and basic data types](https://github.com/PDXPythonPirates/python-101/tree/main/Week%201%20–%20An%20introduction%20to%20Python%20and%20basic%20data%20types)
 * Week 2 – Collection data types: lists, tuples, dictionaries and sets
 * Week 3 – Functions
 * Week 4 – Conditional logic and loops
