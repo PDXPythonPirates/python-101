@@ -12,6 +12,10 @@ This syllabus is largely based on [Mike Dane’s](https://www.mikedane.com) vide
   * Kylie Ying's [12 Beginner Python Projects](https://www.youtube.com/watch?v=8ext9G7xspg)
   * Patrick Loeber’s [Advanced Python Programming Course](https://www.python-engineer.com/courses/advancedpython/) 
 
+## Why Python?
+
+Python is the world's [most popular programming language](https://pypl.github.io/PYPL.html). It is a [skill in high-demand](https://careerkarma.com/blog/top-programming-languages-2021/) in the technology sector, with [six figure average salaries](https://www.indeed.com/career/python-developer/salaries) for Python developers. Furthermore, these positions typically come with creative, challenging work, collaborative work environments, and a high-level of on-the-job autonomy.
+
 ## Syllabus
 
 The course content, including videos and exercises, are organized by week as folders (see in the source code above). To begin, click on [Week 1 – An introduction to Python and basic data types](https://github.com/PDXPythonPirates/python-101/tree/main/Week%201%20–%20An%20introduction%20to%20Python%20and%20basic%20data%20types). To provide a comprehensive look at what will be covered in this course, an outline is provided below.
