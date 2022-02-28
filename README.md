@@ -1,4 +1,6 @@
-# python-101
+# PDX Python Pyrates Introductory Python Course
+
+## Introduction
 
 There exists a plethora of free, high-quality resources on the internet to learn Python. But with so many it is difficult to know where to begin and focus one’s time and energy. This syllabus was created to solve that problem: providing everyone with a starting point to learn Python using these great resources.
 
@@ -9,3 +11,7 @@ This syllabus is largely based on [Mike Dane’s](https://www.mikedane.com) vide
 * Additional resources (videos, articles, exercise, and code challenges) from across the internet.
   * Kylie Ying's [12 Beginner Python Projects](https://www.youtube.com/watch?v=8ext9G7xspg)
   * Patrick Loeber’s [Advanced Python Programming Course](https://www.python-engineer.com/courses/advancedpython/) 
+
+## Syllabus
+
+The course content, including videos and exercises, are organized by week as folders (see above).
