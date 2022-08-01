@@ -1,3 +1,5 @@
+[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://pdxpythonpyrates.github.io/python-101/)
+
 # PDX Python Pyrates Introductory Python Course
 
 ## Introduction
