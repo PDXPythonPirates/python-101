@@ -8,7 +8,7 @@ The internet contains plenty of high-quality resources to learn Python. Some are
 
 If you are new to Python, start at the beginning. The concepts and topics in this book build on one another to foster learning. To brush up on a specific topic, use the navigation at left or the search bar.
 
-### Code, review, code
+**Code, review, code**
 
 The best way to learn Python is write (_a lot of_) code, receive feedback, and improve your code. (This is how you'll work in industry.) 
 
