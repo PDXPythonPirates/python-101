@@ -5,6 +5,7 @@ parts:
     chapters: 
     - file: intro/intro_to_python
       sections: 
+      - file: intro/installing_python
       - file: intro/printing_output
       - file: intro/collecting_user_input
       - file: intro/variables
