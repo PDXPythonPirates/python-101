@@ -1,13 +1,12 @@
 format: jb-book
 root: intro
 parts: 
-  - caption: An Introduction to Python
+  - caption: Introduction
     chapters: 
-    - file: intro/intro_to_python
-      sections: 
-      - file: intro/installing_python
-      - file: intro/printing_output
-      - file: intro/collecting_user_input
-      - file: intro/variables
-      - file: intro/basic_data_types
-      - file: intro/math_operations
+    - file: intro/why_python
+    - file: intro/installing_python
+    - file: intro/printing_output
+    - file: intro/collecting_user_input
+    - file: intro/variables
+    - file: intro/basic_data_types
+    - file: intro/math_operations
