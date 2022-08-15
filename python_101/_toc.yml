@@ -7,6 +7,6 @@ parts:
     - file: intro/installing_python
     - file: intro/printing_output
     - file: intro/collecting_user_input
-    - file: intro/variables
     - file: intro/basic_data_types
     - file: intro/math_operations
+    - file: intro/variables
