@@ -140,11 +140,6 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="variables.html">
-   Variables
-  </a>
- </li>
- <li class="toctree-l1">
   <a class="reference internal" href="basic_data_types.html">
    Python’s basic data types
   </a>
@@ -152,6 +147,11 @@ const thebe_selector_output = ".output, .cell_output"
  <li class="toctree-l1">
   <a class="reference internal" href="math_operations.html">
    Math operations
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="variables.html">
+   Variables
   </a>
  </li>
 </ul>
@@ -338,12 +338,105 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction">
+   Introduction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#objectives">
+   Objectives
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-print-function">
+   The
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     print()
+    </span>
+   </code>
+   function
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#printing-multiple-arguments">
+   Printing multiple arguments
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#printing-variable-values">
+   Printing variable values
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#modifying-print-s-default-behavior">
+   Modifying
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     print()
+    </span>
+   </code>
+   ’s default behavior
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#changing-what-separates-each-argument">
+     Changing what separates each argument
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#changing-what-follows-the-output">
+     Changing what follows the output
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#conclusion">
+   Conclusion
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#test-questions">
+   Test questions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercises">
+   Exercises
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#glossary">
+   Glossary
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
@@ -355,6 +448,88 @@ title="Print to PDF"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction">
+   Introduction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#objectives">
+   Objectives
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-print-function">
+   The
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     print()
+    </span>
+   </code>
+   function
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#printing-multiple-arguments">
+   Printing multiple arguments
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#printing-variable-values">
+   Printing variable values
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#modifying-print-s-default-behavior">
+   Modifying
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     print()
+    </span>
+   </code>
+   ’s default behavior
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#changing-what-separates-each-argument">
+     Changing what separates each argument
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#changing-what-follows-the-output">
+     Changing what follows the output
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#conclusion">
+   Conclusion
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#test-questions">
+   Test questions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercises">
+   Exercises
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#glossary">
+   Glossary
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -364,7 +539,343 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="printing-output">
 <h1>Printing output<a class="headerlink" href="#printing-output" title="Permalink to this headline">#</a></h1>
-<p>Nothing here yet!</p>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h2>
+<p>Using code to get a computer to talk back to you is <a class="reference external" href="https://www.thesoftwareguild.com/blog/the-history-of-hello-world/">typically the first thing you’ll learn</a> when studying a programming language. Not only is it typically a simple task, and therefore perfect for newcomers, but learning this skill allows for an easy introduction to core coding concepts such as functions, data types, variables, and more.</p>
+<p>Following in the footsteps of others, the first programming concept we’ll cover is printing output to the user. This ability is useful for several reasons, which we’ll cover in the examples throughout this introductory section. Since Python uses a function to print output, we’ll also introduce functions and arguments along the way.</p>
+</section>
+<section id="objectives">
+<h2>Objectives<a class="headerlink" href="#objectives" title="Permalink to this headline">#</a></h2>
+<p>After working through this page, you should be able to answer these questions:</p>
+<ul class="simple">
+<li><p>How do you display output to the user in Python?</p></li>
+<li><p>What is a function?</p></li>
+<li><p>What is an argument?</p></li>
+<li><p>How can you print multiple statements?</p></li>
+<li><p>How do you print variable values?</p></li>
+<li><p>What options keyword arguments can you pass the <code class="docutils literal notranslate"><span class="pre">print()</span></code> function? What do they do?</p></li>
+</ul>
+</section>
+<section id="the-print-function">
+<h2>The <code class="docutils literal notranslate"><span class="pre">print()</span></code> function<a class="headerlink" href="#the-print-function" title="Permalink to this headline">#</a></h2>
+<p>To print output in Python, use the <a class="reference external" href="https://docs.python.org/3/library/functions.html#print"><code class="docutils literal notranslate"><span class="pre">print()</span></code></a> <em>function</em>. We’ll cover functions in more detail in a later section. For now, think of a function as a tool in your coding toolbelt that is waiting to be used when you need it. It is a piece of code that performs a specific task, and it will perform that task only when you tell it to do so. (Much like a hammer to a carpenter.) In Python we use, or <em>call</em>, a function by typing it’s name followed by open and closed parentheses. For example,</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello World!&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Hello World!
+</pre></div>
+</div>
+</div>
+</div>
+<div class="admonition-definition admonition">
+<p class="admonition-title">Definition</p>
+<p>A <strong>function</strong> is a piece of code that performs a specific task, and is run only when called.</p>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">print()</span></code> function’s single purpose is outputting, to the user, whatever value it is passed. Most functions accept <em>arguments</em>, or values passed to the function that modify it’s behavior. In the example above we passed the string <code class="docutils literal notranslate"><span class="pre">'Hello</span> <span class="pre">World!'</span></code>, so that is what it printed back to you.</p>
+<div class="admonition-definition admonition">
+<p class="admonition-title">Definition</p>
+<p>An <strong>argument</strong> is a value that is passed to a function that can modify the function’s behavior.</p>
+</div>
+<p>If we call <code class="docutils literal notranslate"><span class="pre">print()</span></code> without passing arguments, nothing would be output but a new line:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>We can string together multiple calls to <code class="docutils literal notranslate"><span class="pre">print()</span></code>. Imagine you work for an investments firm and you are desigining an app where clients can sign in and view the value of their portfolio. When a user returns to the app, you might want to update them on how the value of their portfolio has changed since the last time they signed in.</p>
+<p>We can do this by calling <code class="docutils literal notranslate"><span class="pre">print()</span></code> as many times as necessary to get the user up to speed.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Welcome back, Jane!&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;You last visited 26 days ago.&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Since then, the value of your investments has increased 3.4%.&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Welcome back, Jane!
+You last visited 26 days ago.
+Since then, the value of your investments has increased 3.4%.
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="printing-multiple-arguments">
+<h2>Printing multiple arguments<a class="headerlink" href="#printing-multiple-arguments" title="Permalink to this headline">#</a></h2>
+<p>Continuing our example, imagine that, when a user is signing up, you’d like to inform if their desired username is available. Supposing someone wants <code class="docutils literal notranslate"><span class="pre">user1234</span></code>, you could return the following:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Congratulations,&#39;</span><span class="p">,</span> <span class="s1">&#39;user1234&#39;</span><span class="p">,</span> <span class="s1">&#39;is available!&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Congratulations, user1234 is available!
+</pre></div>
+</div>
+</div>
+</div>
+<p>Here we passed multiple arguments to <code class="docutils literal notranslate"><span class="pre">print()</span></code>. When passed multiple arguments, its default behavior is to return whatever it is passed, separated by a space.</p>
+<p>Every argument we’ve passed <code class="docutils literal notranslate"><span class="pre">print()</span></code> so far has been surrounded by single quotes. These are called <em>strings</em>, or sequences of unicode characters. In Python there are various data types that are used to represent different types of values. We’ll get into these basic data types in a future lesson.</p>
+<p>For now it is sufficient to know that we can pass <code class="docutils literal notranslate"><span class="pre">print()</span></code> not only strings (which represent text values), but also other data types like integers (whole numbers) or floats (numbers with decimals).</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Welcome back, Jane!&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;You last visited&#39;</span><span class="p">,</span> <span class="mi">26</span><span class="p">,</span> <span class="s1">&#39;days ago.&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Since then, the value of your investments has increased&#39;</span><span class="p">,</span> <span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;%.&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Welcome back, Jane!
+You last visited 26 days ago.
+Since then, the value of your investments has increased 3.4 %.
+</pre></div>
+</div>
+</div>
+</div>
+<div class="admonition-definition admonition">
+<p class="admonition-title">Definition</p>
+<p>A <strong>string</strong> is a built-in data type that holds a sequence of unicode characters.</p>
+</div>
+</section>
+<section id="printing-variable-values">
+<h2>Printing variable values<a class="headerlink" href="#printing-variable-values" title="Permalink to this headline">#</a></h2>
+<p>Looking at the above print statements, in an actual application we’d have code that interacted with a database that would determine the last time Jane visited the app and the change in portfolio value since that visit. After calculating those values they would be stored as <em>variables</em>, or names that point to an object or value.</p>
+<div class="admonition-definition admonition">
+<p class="admonition-title">Definition</p>
+<p>A <strong>variable</strong> is a name that points to an object or value.</p>
+</div>
+<p>We’ll cover variables with more depth soon. For this exercise we’ll show that you can print a variable’s value by passing the variable to the <code class="docutils literal notranslate"><span class="pre">print()</span></code> function, and it will know what to do from there.</p>
+<p>For example, suppose our application had variables that stored the user’s name (Jane), the number of days since the last visit (26), and the portfolio value change (+3.4%).</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">user_name</span> <span class="o">=</span> <span class="s1">&#39;Jane&#39;</span>
+<span class="n">days_since_last_visit</span> <span class="o">=</span> <span class="mi">26</span>
+<span class="n">portfolio_change_percent</span> <span class="o">=</span> <span class="mf">3.4</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>We can make the previous print statement dynamic (reuseable) by adding these variables as arguments.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Welcome back,&#39;</span><span class="p">,</span> <span class="n">user_name</span><span class="p">,</span> <span class="s1">&#39;!&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;You last visited&#39;</span><span class="p">,</span> <span class="n">days_since_last_visit</span><span class="p">,</span> <span class="s1">&#39;days ago.&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Since then, the value of your investments has increased&#39;</span><span class="p">,</span> <span class="n">portfolio_change_percent</span><span class="p">,</span> <span class="s1">&#39;%.&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Welcome back, Jane !
+You last visited 26 days ago.
+Since then, the value of your investments has increased 3.4 %.
+</pre></div>
+</div>
+</div>
+</div>
+<p>Now we can reuse these same print statements <em>for all users</em> and only need to modify the variable values elsewhere in the application (something we’ll learn to do later).</p>
+</section>
+<section id="modifying-print-s-default-behavior">
+<h2>Modifying <code class="docutils literal notranslate"><span class="pre">print()</span></code>’s default behavior<a class="headerlink" href="#modifying-print-s-default-behavior" title="Permalink to this headline">#</a></h2>
+<p>Perhaps you noticed that, in lines one and three in the output from our last <code class="docutils literal notranslate"><span class="pre">print()</span></code> statement, there is a space between the final word and the punctuation. We wouldn’t want sentences with grammatical errors being displayed to users of our application, so we’ll learn how to fix that next.</p>
+<section id="changing-what-separates-each-argument">
+<h3>Changing what separates each argument<a class="headerlink" href="#changing-what-separates-each-argument" title="Permalink to this headline">#</a></h3>
+<p>As we stated earlier, <code class="docutils literal notranslate"><span class="pre">print()</span></code>’s default behavior is to take whatever arguments you pass it, separate those arguments with a space, and print them back to you, ending with a new line. What if we wanted to separate the arguments by something other than a space? Or we didn’t want a new line to begin following the output?</p>
+<div class="tip admonition">
+<p class="admonition-title">Coding tip</p>
+<p>An <em>essential</em> tool in every coder’s toolbelt is knowing how to use a search engine to get answers to your programming questions.</p>
+</div>
+<p>If we Google <em>python print change what separates arguments</em>, the first result that displays as of this writing is a <a class="reference external" href="https://www.codingem.com/python-print-function-parameters/">codingem article</a> titled <em>Python print() Function Parameters Explained</em>. Near the top of the article we learn that the <code class="docutils literal notranslate"><span class="pre">print()</span></code> function accepts an argument named <code class="docutils literal notranslate"><span class="pre">sep</span></code>, which has a default value of <code class="docutils literal notranslate"><span class="pre">'</span> <span class="pre">'</span></code>.</p>
+<p>If we modify this <em>keyword argument</em> (a named argument that comes with a default value) we can change what separates the values of the various arguments we pass <code class="docutils literal notranslate"><span class="pre">print()</span></code>.</p>
+<div class="admonition-definition admonition">
+<p class="admonition-title">Definition</p>
+<p>A <strong>keyword argument</strong> is a named argument, which holds a default value, that can be used when calling a function.</p>
+</div>
+<p>If we go back to the last thing we printed and add <code class="docutils literal notranslate"><span class="pre">sep='</span> <span class="pre">'</span></code> to the arguments we’re passing:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Welcome back,&#39;</span><span class="p">,</span> <span class="n">user_name</span><span class="p">,</span> <span class="s1">&#39;!&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39; &#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;You last visited&#39;</span><span class="p">,</span> <span class="n">days_since_last_visit</span><span class="p">,</span> <span class="s1">&#39;days ago.&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39; &#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Since then, the value of your investments has increased&#39;</span><span class="p">,</span> <span class="n">portfolio_change_percent</span><span class="p">,</span> <span class="s1">&#39;%.&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39; &#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Welcome back, Jane !
+You last visited 26 days ago.
+Since then, the value of your investments has increased 3.4 %.
+</pre></div>
+</div>
+</div>
+</div>
+<p>We get the same output! That is because, if we don’t specify an alternative value for <code class="docutils literal notranslate"><span class="pre">sep</span></code>, the <code class="docutils literal notranslate"><span class="pre">print()</span></code> function <em>behaves as though</em> we did pass <code class="docutils literal notranslate"><span class="pre">sep='</span> <span class="pre">'</span></code>. We’ll learn a lot more about keyword arguments in a later lesson.</p>
+<p>To fix the issue we’re having here, we can specify that we don’t want spaces between arguments. If we set <code class="docutils literal notranslate"><span class="pre">sep=''</span></code> (an empty string), we get:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Welcome back,&#39;</span><span class="p">,</span> <span class="n">user_name</span><span class="p">,</span> <span class="s1">&#39;!&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;You last visited&#39;</span><span class="p">,</span> <span class="n">days_since_last_visit</span><span class="p">,</span> <span class="s1">&#39;days ago.&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Since then, the value of your investments has increased&#39;</span><span class="p">,</span> <span class="n">portfolio_change_percent</span><span class="p">,</span> <span class="s1">&#39;%.&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Welcome back,Jane!
+You last visited26days ago.
+Since then, the value of your investments has increased3.4%.
+</pre></div>
+</div>
+</div>
+</div>
+<p>We no longer have a space between the final word of our sentence and the punctuation! But we introduced a new readability issue. <code class="docutils literal notranslate"><span class="pre">sep=''</span></code> removed spaces between <em>all</em> our arguments. To fix this problem we can manually add spaces in our strings so the text displays properly.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Welcome back, &#39;</span><span class="p">,</span> <span class="n">user_name</span><span class="p">,</span> <span class="s1">&#39;!&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;You last visited &#39;</span><span class="p">,</span> <span class="n">days_since_last_visit</span><span class="p">,</span> <span class="s1">&#39; days ago.&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Since then, the value of your investments has increased &#39;</span><span class="p">,</span> <span class="n">portfolio_change_percent</span><span class="p">,</span> <span class="s1">&#39;%.&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Welcome back, Jane!
+You last visited 26 days ago.
+Since then, the value of your investments has increased 3.4%.
+</pre></div>
+</div>
+</div>
+</div>
+<p>Perfect!</p>
+</section>
+<section id="changing-what-follows-the-output">
+<h3>Changing what follows the output<a class="headerlink" href="#changing-what-follows-the-output" title="Permalink to this headline">#</a></h3>
+<p>The <a class="reference external" href="https://www.codingem.com/python-print-function-parameters/">codingem article</a> also discusses the <code class="docutils literal notranslate"><span class="pre">end</span></code> keyword argument. <code class="docutils literal notranslate"><span class="pre">end</span></code> dictates what <code class="docutils literal notranslate"><span class="pre">print()</span></code> will output <em>after</em> it has printed the values of all the arguments. It’s default value is <code class="docutils literal notranslate"><span class="pre">'\n'</span></code>, which is Python’s character for a new line.</p>
+<p>To reinforce what is meant by a default value, note that the output of these two <code class="docutils literal notranslate"><span class="pre">print()</span></code> calls is the same.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Welcome back, &#39;</span><span class="p">,</span> <span class="n">user_name</span><span class="p">,</span> <span class="s1">&#39;!&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Welcome back, &#39;</span><span class="p">,</span> <span class="n">user_name</span><span class="p">,</span> <span class="s1">&#39;!&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Welcome back, Jane!
+Welcome back, Jane!
+</pre></div>
+</div>
+</div>
+</div>
+<p>An important thing to note here. The <code class="docutils literal notranslate"><span class="pre">print()</span></code> function can handle changes to the default <code class="docutils literal notranslate"><span class="pre">sep</span></code> and <code class="docutils literal notranslate"><span class="pre">end</span></code> values <em>at the same time</em>. This means we can play with these keyword arguments to meet our needs.</p>
+<p>Let’s suppose that, when Jane returns to the application, we want all her details to be displayed on one line (instead of multiple lines). We could do this, using multiple print statements, if we modify <code class="docutils literal notranslate"><span class="pre">end</span></code> to be a space instead of a new line. We’ll retain the modifications we made earlier, inserting spaces into the string arguments and keeping <code class="docutils literal notranslate"><span class="pre">sep=''</span></code> to maintain readability.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Welcome back, &#39;</span><span class="p">,</span> <span class="n">user_name</span><span class="p">,</span> <span class="s1">&#39;!&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39; &#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;You last visited &#39;</span><span class="p">,</span> <span class="n">days_since_last_visit</span><span class="p">,</span> <span class="s1">&#39; days ago.&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39; &#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Since then, the value of your investments has increased &#39;</span><span class="p">,</span> <span class="n">portfolio_change_percent</span><span class="p">,</span> <span class="s1">&#39;%.&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39; &#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Welcome back, Jane! You last visited 26 days ago. Since then, the value of your investments has increased 3.4%. 
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">#</a></h2>
+<p>Being able to deliver output to a user is an essential piece to any application. It is also helpful to you, as a programmer, when you are debugging and testing your code (which we’ll cover in a later lesson). Python makes printing output easy with the <code class="docutils literal notranslate"><span class="pre">print()</span></code> function. It works intuitively, outputting whatever you pass it, even if you pass it multiple arguments.</p>
+<p>As we explored <code class="docutils literal notranslate"><span class="pre">print()</span></code>’s capabilities, we introduced the concept of functions, which are blocks of code that are standing by to perform a specific task for you. We pass functions arguments, which can take the shape of an on-the-fly value (e.g., <code class="docutils literal notranslate"><span class="pre">print('Hello</span> <span class="pre">World!')</span></code>), or some variable we’ve defined. <code class="docutils literal notranslate"><span class="pre">print()</span></code> handles arguments from all sorts of data types, not just strings.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">print()</span></code> function doesn’t require that an argument be passed, but it is more helpful when at least one is. And it has pre-defined keyword arguments called <code class="docutils literal notranslate"><span class="pre">sep</span></code> and <code class="docutils literal notranslate"><span class="pre">end</span></code> which can be modified to change how the values of arguments are separated and how the output ends, respectively.</p>
+<p>In the next section we’ll explore the flip side of printing output: gathering input from the user. Before moving on, test what you’ve learned by answering the questions below and work through the included exercises.</p>
+</section>
+<section id="test-questions">
+<h2>Test questions<a class="headerlink" href="#test-questions" title="Permalink to this headline">#</a></h2>
+<p>Consider each question below and write an answer based on what you’ve learned. Once you’ve responded to each question, check your knowledge by clicking the dropdown to see a solution.</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+1. How do you display output to the user in Python?<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">Use the <code class="docutils literal notranslate"><span class="pre">print()</span></code> function! Call the function and pass an argument of any data type, and its value will be output to the user.</p>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+2. What is a function?<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">A <strong>function</strong> is a piece of code that performs a specific task, and is run only when called.</p>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+3. What is an argument?<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">An <strong>argument</strong> is a value that is passed to a function that can modify the function’s behavior.</p>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+4. How can you print multiple statements?<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">The <code class="docutils literal notranslate"><span class="pre">print()</span></code> function accepts as many arguments as you like! To have it output the values of multiple objects, pass it multiple arguments!</p>
+<p class="sd-card-text">Alternatively, you can call <code class="docutils literal notranslate"><span class="pre">print()</span></code> multiple times.</p>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+5. How do you print variable values?<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">Pass the <code class="docutils literal notranslate"><span class="pre">print()</span></code> function a variable as an argument, and it will print the variable’s value.</p>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+6. What options keyword arguments can you pass the <code class="docutils literal notranslate"><span class="pre">print()</span></code> function? What do they do?<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">print()</span></code> accepts the <code class="docutils literal notranslate"><span class="pre">sep</span></code> and <code class="docutils literal notranslate"><span class="pre">end</span></code> keyword arguments.</p>
+<p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">sep</span></code> determines how values of multiple arguments will be separated in the output, and defaults to a blank space (<code class="docutils literal notranslate"><span class="pre">'</span> <span class="pre">'</span></code>).</p>
+<p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">end</span></code> determines what is output <em>after</em> all the argument values. It defaults to a new line (<code class="docutils literal notranslate"><span class="pre">'\n'</span></code>).</p>
+</div>
+</details></section>
+<section id="exercises">
+<h2>Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">#</a></h2>
+<p>In progress.</p>
+</section>
+<section id="glossary">
+<h2>Glossary<a class="headerlink" href="#glossary" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>An <strong>argument</strong> is a value that is passed to a function that can modify the function’s behavior.</p></li>
+<li><p>A <strong>function</strong> is a piece of code that performs a specific task, and is run only when called.</p></li>
+<li><p>A <strong>keyword argument</strong> is a named argument, which holds a default value, that can be used when calling a function.</p></li>
+<li><p>The <strong>string</strong> is a built-in data type that holds a sequence of unicode characters.</p></li>
+<li><p>A <strong>variable</strong> is a name that points to an object or value.</p></li>
+</ul>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
